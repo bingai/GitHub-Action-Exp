@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python src/addition.py test
+        python3 -m src/addition.py 
